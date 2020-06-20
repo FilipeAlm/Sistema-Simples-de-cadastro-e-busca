@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+  /* fontes h2*/
+  h2{ font-family: arial; 
+    color: #f4a6ad;}
+
+  /* fontes P*/
+  p{ font-family: arial; 
+    color: #4CAF50;}
+  
+  /* Botões de texto*/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  /*Botão enviar*/
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* estilo dos containers */
+  .container {
+    font-family: arial; 
+    color: #4CAF50;
+    border-radius: 5px;
+    background-color: #fff0f5;
+    padding: 10px;
+  }
+  
+  /* as duas colunas */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* floats */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* responsividade do layout */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  article{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: #98fb98;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+  }
+  
